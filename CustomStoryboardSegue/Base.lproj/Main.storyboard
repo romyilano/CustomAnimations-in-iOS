@@ -30,14 +30,27 @@
                                     <segue destination="dXs-qV-wwC" kind="custom" customClass="MySegue" id="vBH-Dw-G23"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ex-dh-jaz">
+                                <rect key="frame" x="112" y="208" width="207" height="202"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="202" id="4Al-YP-Yz5"/>
+                                    <constraint firstAttribute="width" constant="207" id="Xz1-du-Pwd"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="tUW-Y0-ona" secondAttribute="trailing" constant="63" id="5In-6F-eJb"/>
                             <constraint firstItem="tUW-Y0-ona" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="39" id="8Nx-7e-Ccn"/>
+                            <constraint firstItem="2ex-dh-jaz" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="96" id="WWe-3X-WKF"/>
+                            <constraint firstItem="2ex-dh-jaz" firstAttribute="top" secondItem="tUW-Y0-ona" secondAttribute="bottom" constant="119" id="noy-CZ-2Ou"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="layerView" destination="2ex-dh-jaz" id="lxn-16-Qge"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
