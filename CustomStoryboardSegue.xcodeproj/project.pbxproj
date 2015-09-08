@@ -14,6 +14,7 @@
 		EC5C0FC51B9FA95300505246 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5C0FC41B9FA95300505246 /* Images.xcassets */; };
 		EC5C0FC81B9FA95300505246 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5C0FC61B9FA95300505246 /* LaunchScreen.xib */; };
 		EC5C0FD41B9FA95300505246 /* CustomStoryboardSegueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C0FD31B9FA95300505246 /* CustomStoryboardSegueTests.m */; };
+		EC5C0FDF1B9FAA3600505246 /* MySegue.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C0FDE1B9FAA3600505246 /* MySegue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		EC5C0FCD1B9FA95300505246 /* CustomStoryboardSegueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomStoryboardSegueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5C0FD21B9FA95300505246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC5C0FD31B9FA95300505246 /* CustomStoryboardSegueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomStoryboardSegueTests.m; sourceTree = "<group>"; };
+		EC5C0FDD1B9FAA3600505246 /* MySegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySegue.h; sourceTree = "<group>"; };
+		EC5C0FDE1B9FAA3600505246 /* MySegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySegue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				EC5C0FBC1B9FA95300505246 /* AppDelegate.m */,
 				EC5C0FBE1B9FA95300505246 /* ViewController.h */,
 				EC5C0FBF1B9FA95300505246 /* ViewController.m */,
+				EC5C0FDD1B9FAA3600505246 /* MySegue.h */,
+				EC5C0FDE1B9FAA3600505246 /* MySegue.m */,
 				EC5C0FC11B9FA95300505246 /* Main.storyboard */,
 				EC5C0FC41B9FA95300505246 /* Images.xcassets */,
 				EC5C0FC61B9FA95300505246 /* LaunchScreen.xib */,
@@ -223,6 +228,7 @@
 				EC5C0FC01B9FA95300505246 /* ViewController.m in Sources */,
 				EC5C0FBD1B9FA95300505246 /* AppDelegate.m in Sources */,
 				EC5C0FBA1B9FA95300505246 /* main.m in Sources */,
+				EC5C0FDF1B9FAA3600505246 /* MySegue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
